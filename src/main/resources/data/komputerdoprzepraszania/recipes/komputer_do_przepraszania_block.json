@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "iri",
+    "igi",
+    "idi"
+  ],
+  "key":
+  {
+    "d":
+    {
+      "item": "minecraft:diamond"
+    },
+    "i":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "r":
+    {
+      "item": "minecraft:redstone_block"
+    },
+    "g":
+    {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result":
+  {
+    "item": "komputerdoprzepraszania:komputer_do_przepraszania_block",
+    "count": 1
+  }
+}

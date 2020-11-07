@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle" : "komputerdoprzepraszania:blocks/komputer_do_przepraszania_block_side_panel",
+    "down" : "komputerdoprzepraszania:blocks/komputer_do_przepraszania_block_side_panel",
+    "up" : "komputerdoprzepraszania:blocks/komputer_do_przepraszania_block_side_panel",
+    "east" : "komputerdoprzepraszania:blocks/komputer_do_przepraszania_block_side_panel",
+    "west" : "komputerdoprzepraszania:blocks/komputer_do_przepraszania_block_side_panel",
+    "north" : "komputerdoprzepraszania:blocks/komputer_do_przepraszania_block_off",
+    "south" : "komputerdoprzepraszania:blocks/komputer_do_przepraszania_block_side_panel"
+  }
+}

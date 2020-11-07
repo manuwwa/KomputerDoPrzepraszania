@@ -1,0 +1,12 @@
+{
+  "block.komputer_do_przepraszania_block.voice": {
+    "category": "voice",
+    "subtitle": "block.komputer_do_przepraszania_block.voice",
+    "sounds": [
+      {
+        "name": "komputerdoprzepraszania:block/komputer_do_przepraszania_block/voice",
+        "stream": true
+      }
+    ]
+  }
+}

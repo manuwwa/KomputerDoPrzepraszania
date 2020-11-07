@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model":  "komputerdoprzepraszania:block/komputer_do_przepraszania_block"},
+    "facing=south": { "model":  "komputerdoprzepraszania:block/komputer_do_przepraszania_block", "y": 180},
+    "facing=west": { "model":  "komputerdoprzepraszania:block/komputer_do_przepraszania_block", "y": 270},
+    "facing=east": { "model":  "komputerdoprzepraszania:block/komputer_do_przepraszania_block", "y": 90},
+    "facing=up": { "model":  "komputerdoprzepraszania:block/komputer_do_przepraszania_block"},
+    "facing=down": { "model":  "komputerdoprzepraszania:block/komputer_do_przepraszania_block"}
+  }
+}
