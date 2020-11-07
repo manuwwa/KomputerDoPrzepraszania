@@ -2,7 +2,6 @@ package com.manuwwaMods.komputerdoprzepraszania.util;
 
 import com.manuwwaMods.komputerdoprzepraszania.blocks.KomputerDoPrzepraszaniaBlock;
 import com.manuwwaMods.komputerdoprzepraszania.blocks.KomputerDoPrzepraszaniaBlockItem;
-import com.manuwwaMods.komputerdoprzepraszania.items.ItemBase;
 import com.manuwwaMods.komputerdoprzepraszania.komputerdoprzepraszania;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -23,9 +22,6 @@ public class RegistryHandler {
         BLOCKS.register(loadingContext.getModEventBus());
         initRegisters();
     }
-
-    //Items
-    //public static final RegistryObject<Item> RUBY = ITEMS.register("komputer_do_przepraszania", ItemBase::new);
 
     //Blocks
     public static final RegistryObject<Block> KOMPUTER_DO_PRZEPRASZANIA_BLOCK = BLOCKS.register("komputer_do_przepraszania_block", KomputerDoPrzepraszaniaBlock::new);
