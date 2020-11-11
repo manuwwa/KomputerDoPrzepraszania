@@ -1,32 +1,18 @@
-modLoader="javafml"
-
-loaderVersion="[34,)"
-
+modLoader="javafml" #mandatory
+loaderVersion="[31,)"
 license="GNU GPLv3"
-
 issueTrackerURL="https://github.com/manuwwa/KomputerDoPrzepraszania/issues"
-
-# A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
-
 modId="komputerdoprzepraszania"
-
 version="${file.jarVersion}"
-
 displayName="Komputer Do Przepraszania"
-
 # A URL to query for updates for this mod. See the JSON update specification <here>
 updateJSONURL="http://myurl.me/" #optional
-
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://github.com/manuwwa/KomputerDoPrzepraszania" #optional
-
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png"
-
 credits="Thanks Manuwwa aka MARP"
-
-# A text field displayed in the mod UI
 authors="Manuwwa" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
@@ -41,7 +27,7 @@ Sorry it is only polish mod.
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[34,)" #mandatory
+    versionRange="[31,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
@@ -50,6 +36,6 @@ Sorry it is only polish mod.
 [[dependencies.examplemod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3]"
+    versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"

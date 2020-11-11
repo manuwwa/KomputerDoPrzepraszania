@@ -10,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class SoundsHandler {
     public static SoundEvent KomputerDoPrzepraszania_Przepraszam;
 
-    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, komputerdoprzepraszania.MOD_ID);
+    public static final DeferredRegister<SoundEvent> SOUNDS = new DeferredRegister<>(ForgeRegistries.SOUND_EVENTS, komputerdoprzepraszania.MOD_ID);
 
 public static final RegistryObject<SoundEvent> komputer_do_przepraszania_block_voice =
         SOUNDS.register("block.komputer_do_przepraszania_block.voice", () -> new SoundEvent(
